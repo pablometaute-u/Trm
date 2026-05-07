@@ -1,0 +1,35 @@
+{
+  "servers": {
+    "sap-notes": {
+      "command": "node",
+      "args": [
+        "C:/tools/mcp-sap-notes/dist/mcp-server.js"
+      ],
+      "env": {
+        "SAP_NOTES_USERNAME": "${SAP_NOTES_USERNAME}",
+        "SAP_NOTES_PASSWORD": "${SAP_NOTES_PASSWORD}",
+        "MCP_LOG_LEVEL": "${MCP_LOG_LEVEL}"
+      }
+    },
+    "abap-adt": {
+      "command": "node",
+      "args": [
+        "C:/tools/mcp-abap-abap-adt-api/dist/index.js"
+      ],
+      "env": {
+        "SAP_HOST": "${SAP_HOST}",
+        "SAP_PORT": "${SAP_PORT}",
+        "SAP_CLIENT": "${SAP_CLIENT}",
+        "SAP_USER": "${SAP_USER}",
+        "SAP_PASSWORD": "${SAP_PASSWORD}",
+        "SAP_ROUTER": "${SAP_ROUTER}",
+        "MCP_LOG_LEVEL": "${MCP_LOG_LEVEL}",
+        "MCP_TIMEOUT_MS": "${MCP_TIMEOUT_MS}"
+      }
+    },
+    "abap-mcp": {
+      "type": "http",
+      "url": "https://mcp-abap.marianzeis.de/mcp"
+    }
+  }
+}

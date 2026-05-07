@@ -144,3 +144,18 @@ Para consumir este endpoint desde SAP (RFC/ABAP), configura:
 2. **Método**: GET
 3. **Header**: `X-API-Key: <tu_api_key>`
 4. **Content-Type**: `application/json`
+
+## Documentación MCP (Eclipse Copilot + SAP)
+
+Para configurar y usar servidores MCP con este proyecto revisa:
+
+- `docs/MCP-SETUP.md` (instalación y configuración)
+- `docs/MCP-USAGE-GUIDE.md` (uso práctico con `@sap-notes` y `@abap-adt`)
+- `docs/MCP-TROUBLESHOOTING.md` (solución de problemas comunes)
+- `docs/SAP-CONNECTION-INFO.md` (datos del sistema QAS y referencias)
+
+Archivos de apoyo:
+
+- `.env.example`
+- `eclipse-copilot-config.json.example`
+- `scripts/validate-mcp-setup.js`
