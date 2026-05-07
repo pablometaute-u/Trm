@@ -144,3 +144,9 @@ Para consumir este endpoint desde SAP (RFC/ABAP), configura:
 2. **Método**: GET
 3. **Header**: `X-API-Key: <tu_api_key>`
 4. **Content-Type**: `application/json`
+
+## MCP ABAP (Eclipse Copilot + SAP QAS)
+
+Para la configuración del MCP ABAP en el contexto TRM, revisa:
+
+- `/home/runner/work/Trm/Trm/docs/MCP-ABAP-SETUP.md`
